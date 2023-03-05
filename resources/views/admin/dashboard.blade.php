@@ -12,12 +12,12 @@
     <div class="container-fluid">
         <div class="row mb-2">
             <div class="col-sm-6">
-                <h1 class="m-0">Dashboard v2</h1>
+                <h1 class="m-0">Dashboard</h1>
             </div><!-- /.col -->
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active">Dashboard v2</li>
+                    <li class="breadcrumb-item active">Dashboard</li>
                 </ol>
             </div><!-- /.col -->
         </div><!-- /.row -->
@@ -35,7 +35,7 @@
                     <span class="info-box-icon bg-info elevation-1"><i class="fas fa-cog"></i></span>
 
                     <div class="info-box-content">
-                        <span class="info-box-text">CPU Traffic</span>
+                        <span class="info-box-text">Kitchen Layout</span>
                         <span class="info-box-number">
                             10
                             <small>%</small>
@@ -51,7 +51,7 @@
                     <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-thumbs-up"></i></span>
 
                     <div class="info-box-content">
-                        <span class="info-box-text">Likes</span>
+                        <span class="info-box-text">Possession Status</span>
                         <span class="info-box-number">41,410</span>
                     </div>
                     <!-- /.info-box-content -->
@@ -68,7 +68,7 @@
                     <span class="info-box-icon bg-success elevation-1"><i class="fas fa-shopping-cart"></i></span>
 
                     <div class="info-box-content">
-                        <span class="info-box-text">Sales</span>
+                        <span class="info-box-text">Preferred Cabinets</span>
                         <span class="info-box-number">760</span>
                     </div>
                     <!-- /.info-box-content -->
@@ -81,7 +81,7 @@
                     <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-users"></i></span>
 
                     <div class="info-box-content">
-                        <span class="info-box-text">New Members</span>
+                        <span class="info-box-text">Preferred Service</span>
                         <span class="info-box-number">2,000</span>
                     </div>
                     <!-- /.info-box-content -->
@@ -94,125 +94,12 @@
 
         <!-- Main row -->
         <div class="row">
-            <div class="col-md-6">
-                <!-- Info Boxes Style 2 -->
-                <div class="info-box mb-3 bg-warning">
-                    <span class="info-box-icon"><i class="fas fa-tag"></i></span>
-
-                    <div class="info-box-content">
-                        <span class="info-box-text">Inventory</span>
-                        <span class="info-box-number">5,200</span>
-                    </div>
-                    <!-- /.info-box-content -->
-                </div>
-                <!-- /.info-box -->
-                <div class="info-box mb-3 bg-success">
-                    <span class="info-box-icon"><i class="far fa-heart"></i></span>
-
-                    <div class="info-box-content">
-                        <span class="info-box-text">Mentions</span>
-                        <span class="info-box-number">92,050</span>
-                    </div>
-                    <!-- /.info-box-content -->
-                </div>
-                <!-- /.info-box -->
-                <div class="info-box mb-3 bg-danger">
-                    <span class="info-box-icon"><i class="fas fa-cloud-download-alt"></i></span>
-
-                    <div class="info-box-content">
-                        <span class="info-box-text">Downloads</span>
-                        <span class="info-box-number">114,381</span>
-                    </div>
-                    <!-- /.info-box-content -->
-                </div>
-                <!-- /.info-box -->
-                <div class="info-box mb-3 bg-info">
-                    <span class="info-box-icon"><i class="far fa-comment"></i></span>
-
-                    <div class="info-box-content">
-                        <span class="info-box-text">Direct Messages</span>
-                        <span class="info-box-number">163,921</span>
-                    </div>
-                    <!-- /.info-box-content -->
-                </div>
-            </div>
-            <!-- /.info-box -->
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-header">
-                        <h3 class="card-title">Browser Usage</h3>
-
-                        <div class="card-tools">
-                            <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                                <i class="fas fa-minus"></i>
-                            </button>
-                            <button type="button" class="btn btn-tool" data-card-widget="remove">
-                                <i class="fas fa-times"></i>
-                            </button>
-                        </div>
-                    </div>
-                    <!-- /.card-header -->
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-8">
-                                <div class="chart-responsive">
-                                    <canvas id="pieChart" height="150"></canvas>
-                                </div>
-                                <!-- ./chart-responsive -->
-                            </div>
-                            <!-- /.col -->
-                            <div class="col-md-4">
-                                <ul class="chart-legend clearfix">
-                                    <li><i class="far fa-circle text-danger"></i> Chrome</li>
-                                    <li><i class="far fa-circle text-success"></i> IE</li>
-                                    <li><i class="far fa-circle text-warning"></i> FireFox</li>
-                                    <li><i class="far fa-circle text-info"></i> Safari</li>
-                                    <li><i class="far fa-circle text-primary"></i> Opera</li>
-                                    <li><i class="far fa-circle text-secondary"></i> Navigator</li>
-                                </ul>
-                            </div>
-                            <!-- /.col -->
-                        </div>
-                        <!-- /.row -->
-                    </div>
-                    <!-- /.card-body -->
-                    <div class="card-footer p-0">
-                        <ul class="nav nav-pills flex-column">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    United States of America
-                                    <span class="float-right text-danger">
-                                        <i class="fas fa-arrow-down text-sm"></i>
-                                        12%</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    India
-                                    <span class="float-right text-success">
-                                        <i class="fas fa-arrow-up text-sm"></i> 4%
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    China
-                                    <span class="float-right text-warning">
-                                        <i class="fas fa-arrow-left text-sm"></i> 0%
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- /.footer -->
-                </div>
-            </div>
-            <!-- /.card -->
+            
             <div class="col-md-6">
                 <!-- PRODUCT LIST -->
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="card-title">Recently Added Products</h3>
+                        <h3 class="card-title">Recently Added City</h3>
 
                         <div class="card-tools">
                             <button type="button" class="btn btn-tool" data-card-widget="collapse">
@@ -285,11 +172,12 @@
                     </div>
                     <!-- /.card-body -->
                     <div class="card-footer text-center">
-                        <a href="javascript:void(0)" class="uppercase">View All Products</a>
+                        <a href="javascript:void(0)" class="uppercase">View All City</a>
                     </div>
                     <!-- /.card-footer -->
                 </div>
             </div>
+
         </div>
         <!-- /.row -->
     </div><!--/. container-fluid -->
