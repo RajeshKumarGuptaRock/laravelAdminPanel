@@ -30,8 +30,8 @@
     <div class="container-fluid">
         <!-- Info boxes -->
         <div class="row">
-            <div class="col-12 col-sm-12 col-md-3">
-                dfdfd
+            <div class="col-12 col-sm-12 col-md-6">
+               <h1>This is reusable Page </h1> 
             </div>
             
             <!-- /.col -->
